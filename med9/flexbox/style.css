@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+.first-flex{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 400px;
+	background: rgb(157,2,246);
+background: linear-gradient(90deg, rgba(157,2,246,1) 1%, rgba(238,174,174,1) 77%);
+	
+}
+
+h1 {
+	
+	font-family: "Dancing Script";
+	font-size: 50px;
+}
+
+.strech-flex{
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+	height: 400px;	
+	background-color: lightgreen;
+}
+
+p{
+	background-color: pink;
+}
+
+.third-flex{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	height:400px;
+	background-color: gray;
+	font-size: 20px;
+}
+
+img{
+	width: 100px;
+}
+
+.fourth-flex{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: chocolate;
+	height: 400px;
+}
+
+.fifth-flex{
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	height: 400px;
+	background: rgb(2,134,246);
+background: linear-gradient(90deg, rgba(2,134,246,1) 0%, rgba(238,233,174,1) 77%);
+}
