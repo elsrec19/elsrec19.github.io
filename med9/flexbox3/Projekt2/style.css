@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script&family=Jura:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script&display=swap');
+h1{
+	text-align: center;
+}
+
+h2{
+	text-align: center;
+	font-size: 10px;
+	font-family: Dancing Script;
+}
+
+.a{
+	border: dotted;
+	font-size: 15px;
+	background-size: cover;
+	font-family: Jura;
+	margin: 30px;
+
+
+}
+
+#b{
+border: dotted;
+padding: 30px;
+margin: 30px;
+
+background: rgb(12,172,166);
+background: radial-gradient(circle, rgba(12,172,166,1) 0%, rgba(67,66,156,1) 100%);
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+p{
+	background-color: white;
+
+}
+
+.c{
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+	border: dotted;
+	background-color: lightblue;
+	height: 200px;
+	margin: 30px;
+	
+	
+
+}
+
+
+img{
+	height: 150px;
+	width: 150px;
+}
+
+#d{
+	background-color: blue;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border:dotted;
+	margin: 30px;
+	}
+
+footer{
+background-color: darkblue;
+display: flex;
+justify-content: space-around;
+align-items: flex-end;
+padding: 20px;
+margin: 30px;
+border: dotted;
+
+}
+
+footer p {
+	height: 30px;
+	font-size: 11px;
+	display: flex;
+	justify-content: flex-end;
+	
+}
