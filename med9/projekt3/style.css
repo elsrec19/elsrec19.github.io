@@ -1,0 +1,154 @@
+/*
+*
+* Title: Shopping
+* Author:Elsined Reci
+* Date:9.5.2022
+* 
+*/
+
+
+/**********************************************************************General Styling****************************************************/
+body{
+	margin: 0;
+}
+
+
+/* Navagation */
+nav{
+	background: rgb(255,227,4);
+background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(134,134,134,1) 56%, rgba(255,255,255,1) 97%);
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-self: center;
+	padding: 30px;
+}
+
+nav img{
+	height: 80px;
+	border-radius: 50%;
+
+}
+
+
+nav ul{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	list-style-type: none;
+
+}
+
+nav ul li a {
+	margin: 10px;
+	padding: 20px;
+	background-color:white;
+	color: gray; 
+	text-decoration: none;
+	border-radius: 15px;
+}
+
+nav ul li a:hover {
+	background: gray;  
+	
+	color: white;
+}
+
+/* Header */
+header{
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	height: 600px;
+	background-size: cover;
+	background-position: center;
+}
+
+header h1{
+	font-size: 30px;
+	border-radius: 20px;
+
+	padding: 30px;
+	background-color: rgba(255,255,255,0.7);
+	
+}
+
+/* Main */
+main{
+	padding: 60px;
+}
+
+
+/* Footer */
+footer{
+	height: 300px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	background: rgb(255,227,4);
+background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(134,134,134,1) 56%, rgba(255,255,255,1) 97%);;
+}
+
+footer p {
+	font-size: 20px;
+	padding: 30px;
+	color: gray;
+	border-radius: 10px;
+	background-color: rgba(255,255,255,0.7);
+}
+
+
+/************************************************************Page Styles********************************/
+
+/* Home Page */
+#home header{
+	background-image: url(knife.jpg);
+	height: 600px; 
+}
+#home header {
+	color: magenta;
+}
+
+/* About Page */
+# header {
+	background-image: url(.jpg);
+}
+
+# main h2 {
+	background-color: lightgreen;
+}	
+
+# section {
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch; 
+}
+
+# section .left{
+	width: 40%;
+	background-color: lightgreen;
+}
+
+#animals section .right {
+	width: 60%;
+	background-color: lightblue;
+}
+
+#animals section .right img {
+	height: 200px;
+}
+
+/* Products Page */
+
+#products header{ 	
+display: flex;
+   justify-content: center; 
+   align-items: flex-start;
+}
+
+.a{
+   height: 200px;
+  
+}
