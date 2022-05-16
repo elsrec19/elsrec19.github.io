@@ -112,43 +112,31 @@ footer p {
 }
 
 /* About Page */
-# header {
-	background-image: url(.jpg);
+#about header{
+	background-image: url(knife 5.jpg);
+	height: 600px;
 }
 
-# main h2 {
-	background-color: lightgreen;
-}	
 
-# section {
-	display: flex;
-	justify-content: space-between;
-	align-items: stretch; 
-}
 
-# section .left{
-	width: 40%;
-	background-color: lightgreen;
-}
 
-#animals section .right {
-	width: 60%;
-	background-color: lightblue;
-}
 
-#animals section .right img {
-	height: 200px;
-}
 
 /* Products Page */
 
 #products header{ 	
-display: flex;
-   justify-content: center; 
-   align-items: flex-start;
+
 }
 
 .a{
-   height: 200px;
-  
+height: 200px;
+}
+section{
+display: flex;	
+justify-content: space-between;
+align-items: flex-start;
+}
+
+.c{
+	height: 200px;
 }
